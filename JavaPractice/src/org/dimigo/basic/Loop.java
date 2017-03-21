@@ -9,7 +9,7 @@ import java.util.Scanner;
 /**
  * <pre>
  * org.dimigo.basic
- * 		|_ Loop
+ * 		|_ Loop 11
  * 
  * 1. 개요 : 
  * 2. 작성일 : 2017. 3. 16.
