@@ -16,23 +16,31 @@ package org.dimigo.oop;
  * @version : 1.0
  *
  */
-public class Car2 {
+public class Car3 {
 	private String company = "현대자동차";
 	private String model = "제네시스";
 	private String color = "검정색";
 	private int maxSpeed = 225;
 	private int price = 50000000;
 	
-	public Car2() {
+	public Car3() {
 		
 	}
 	
-	public Car2(String newCompany, String newModel, String newColor, int newMaxSpeed, int newPrice) {
-		company = newCompany;
-		model = newModel;
-		color = newColor;
-		maxSpeed = newMaxSpeed;
-		price = newPrice;
+	public Car3(String company, String model, String color, int maxSpeed, int price) {
+		this.company = company;
+		this.model = model;
+		this.color = color;
+		this.maxSpeed = maxSpeed;
+		this.price = price;
+	}
+	
+	public Car3(String company, String model, String color, int maxSpeed) {
+		this(company, model, color, maxSpeed, 0);
+	}
+	
+	public Car3(String company, String model, String color) {
+		this(company, model, color, 0);
 	}
 	
 	public String getCompany() {
